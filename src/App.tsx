@@ -2,9 +2,8 @@ import { FC } from 'react';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import { ReturnComponentType } from './types';
-
 import { PrivateRoute, Login, Dashboard, AuthWrapper, Error } from 'pages';
+import { ReturnComponentType } from 'types';
 
 export const App: FC = (): ReturnComponentType => (
   <AuthWrapper>

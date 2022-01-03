@@ -39,4 +39,4 @@ export default [
     type: 'User',
     site_admin: false,
   },
-]
+];
